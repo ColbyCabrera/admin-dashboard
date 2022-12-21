@@ -108,8 +108,16 @@ a {
     position: relative;
 }
 
+.profile {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    margin: 1.6rem;
+    margin-left: 0;
+}
+
 .profile-picture--small {
-    height: 3.2rem;
+    height: 4.8rem;
     border-radius: 50%;
 }
 
@@ -138,5 +146,22 @@ a {
     flex: 1;
     background-color: #cbd5e1;
     height: 3.2rem;
-    border-radius: 25px
+    border-radius: 25px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.search-bar input {
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;
+    color: #334155;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.search-bar input:focus {
+    outline: none;
 }
