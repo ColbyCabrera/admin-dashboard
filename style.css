@@ -220,7 +220,11 @@ svg:hover {
 }
 
 .announcements .container {
-    
+    background-color: #f1f5f9;
+    margin-top: 1.4rem;
+    padding: 1.6rem;
+    width: 90%;
+    border-radius: 10px;
 }
 
 .options {
@@ -247,4 +251,31 @@ svg:hover {
 .card div>p {
     margin-top: 1.4rem;
     font-size: 1.6rem;
+}
+
+.side-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.trending .container {
+    background-color: #f1f5f9;
+    margin-top: 1.4rem;
+    padding: 0.8rem 1.6rem;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.announcement p {
+    margin: 0.8rem 0;
+    padding-bottom: 0.8rem;
+}
+
+.announcement h3 {
+    margin-top: 0.8rem;
+}
+
+.announcement--1, .announcement--2 {
+    border-bottom: 1px solid #bbc5dd;
 }
